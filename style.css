@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('https://images.unsplash.com/photo-1600689162573-cd59b49cc01b?auto=format&fit=crop&w=1200&q=80') no-repeat center/cover;
+  font-family: Arial, sans-serif;
+  perspective: 400px;
+}
+
+.card {
+  width: 300px;
+  padding: 20px;
+  border-radius: 15px;
+  color: white;
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(8px);
+  text-align: center;
+  transition: transform 0.5s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.card h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  letter-spacing: 1px;
+}
+
+.card p {
+  font-size: 14px;
+  line-height: 1.5;
+}
