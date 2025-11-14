@@ -14,7 +14,7 @@ body {
   width: 300px;
   padding: 20px;
   border-radius: 15px;
-  color: white;
+  color: black;
   background: rgba(0, 0, 0, 0.4);
   backdrop-filter: blur(8px);
   text-align: center;
